@@ -1,7 +1,8 @@
 # Maestro
+
 General steps
 Install Maestro framework locally
-For iOS, install Homebrew 
+For iOS, install Homebrew
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -9,7 +10,7 @@ Install Xcode - Xcode can be installed from the App Store.
 
 https://developer.apple.com/xcode/
 
-Install JDK 
+Install JDK
 
 https://www.oracle.com/java/technologies/downloads/#jdk22-mac
 
@@ -19,7 +20,7 @@ brew tap facebook/fb
 
 brew install facebook/fb/idb-companion
 
-Install the Maestro CLI using the following command: 
+Install the Maestro CLI using the following command:
 
 curl -Ls "https://get.maestro.Mobile.dev" | bash
 

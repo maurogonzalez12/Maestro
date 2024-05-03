@@ -13,3 +13,5 @@ appId: com.android.contacts
 - tapOn: "Email"
 - inputRandomEmail
 - tapOn: "Save"
+- assertVisible:
+    id: "com.android.contacts:id/large_title"

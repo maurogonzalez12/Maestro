@@ -1,7 +1,8 @@
-appId: com.android.contacts
+appId: com.google.android.contacts
 ---
 - launchApp
-- tapOn: "Create new contact"
+- tapOn:
+        id: "com.google.android.contacts:id/navigation_rail_floating_action_button"
 - tapOn: "First name"
 - inputRandomPersonName
 - tapOn: "Last name"
@@ -14,4 +15,4 @@ appId: com.android.contacts
 - inputRandomEmail
 - tapOn: "Save"
 - assertVisible:
-    id: "com.android.contacts:id/large_title"
+        id: "com.google.android.contacts:id/large_title"

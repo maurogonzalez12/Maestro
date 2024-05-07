@@ -1,8 +1,10 @@
+
 appId: com.google.android.contacts
 ---
 - launchApp
 - tapOn:
         id: "com.google.android.contacts:id/navigation_rail_floating_action_button"
+
 - tapOn: "First name"
 - inputRandomPersonName
 - tapOn: "Last name"

@@ -1,0 +1,8 @@
+appId: com.google.android.deskclock
+---
+- launchApp
+- tapOn: "Add city"
+- tapOn: "Search for a city"
+- inputText: "Buenos Aires"
+- tapOn: "Buenos Aires, Argentina"
+- assertVisible: "Buenos Aires"

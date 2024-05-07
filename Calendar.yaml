@@ -1,0 +1,12 @@
+appId: com.google.android.calendar
+---
+- launchApp:
+      clearState: true
+- tapOn: "next page"
+- tapOn: "Got it"
+- tapOn: "Create new event and more"
+- tapOn: "Event button"
+- tapOn: "Add title"
+- inputText: "QA Meeting"
+- "back"
+- tapOn: "Save"
